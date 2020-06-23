@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Blog - Anyar Bootstrap Template</title>
+  <title>Blog - Video App Bootstrap Template</title>
   <meta content="" name="descriptison">
   <meta content="" name="keywords">
 
@@ -30,8 +30,7 @@
   <link href="assets/css/style.css" rel="stylesheet">
 
   <!-- =======================================================
-  * Template Name: Anyar - v2.1.0
-  * Template URL: https://bootstrapmade.com/anyar-free-multipurpose-one-page-bootstrap-theme/
+
   * Author: BootstrapMade.com
   * License: https://bootstrapmade.com/license/
   ======================================================== -->
@@ -40,56 +39,72 @@
 <body>
 
   <!-- ======= Top Bar ======= -->
-  <div id="topbar" class="d-none d-lg-flex align-items-center fixed-top topbar-inner-pages">
-    <div class="container d-flex align-items-center">
-      <div class="contact-info mr-auto">
+  <div id="topbar" class="d-none d-lg-flex align-items-center fixed-top bg-dark">
+    <div class="container d-flex align-items-center text-light">
+      <div class="contact-info ml-auto">
+        <nav class="nav-menu d-none d-lg-block">
         <ul>
-          <li><i class="icofont-envelope"></i><a href="mailto:contact@example.com">contact@example.com</a></li>
+          <li>Request a Demo</li>
           <li><i class="icofont-phone"></i> +1 5589 55488 55</li>
-          <li><i class="icofont-clock-time icofont-flip-horizontal"></i> Mon-Fri 9am - 5pm</li>
+          <li class="drop-down"><a href="#">Resources</a>
+            <ul class="text-dark">
+              <li><a href="#">Blog</a></li>
+            </ul>
+          </li>
         </ul>
-      </div>
-      <div class="cta">
-        <a href="#about" class="scrollto">Get Started</a>
+      </nav>
       </div>
     </div>
   </div>
 
   <!-- ======= Header ======= -->
-  <header id="header" class="fixed-top header-inner-pages">
+  <header id="header" class="fixed-top ">
     <div class="container d-flex align-items-center">
 
-      <h1 class="logo mr-auto"><a href="index.html#header" class="scrollto">Anyar</a></h1>
+      <h1 class="logo mr-auto"><a href="#header" class="scrollto">Video App</a></h1>
       <!-- Uncomment below if you prefer to use an image logo -->
-      <!-- <a href="index.html#header" class="logo mr-auto scrollto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+      <!-- <a href="#header" class="logo mr-auto scrollto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
 
       <nav class="nav-menu d-none d-lg-block">
         <ul>
-          <li><a href="index.html#header">Home</a></li>
-          <li><a href="index.html#about">About</a></li>
-          <li><a href="index.html#services">Services</a></li>
-          <li><a href="index.html#portfolio">Portfolio</a></li>
-          <li><a href="index.html#team">Team</a></li>
-          <li><a href="index.html#pricing">Pricing</a></li>
+          <li><a href="./index.html">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <!-- <li><a href="#services">Services</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#team">Team</a></li>
+          <li><a href="#pricing">Pricing</a></li>
+          <li><a href="blog.html">Blog</a></li> -->
           <li class="active"><a href="blog.html">Blog</a></li>
-          <li class="drop-down"><a href="">Drop Down</a>
+          <li class="drop-down"><a href="">Solutions</a>
             <ul>
-              <li><a href="#">Drop Down 1</a></li>
-              <li class="drop-down"><a href="#">Deep Drop Down</a>
+              <!-- <li><a href="#">Products</a></li> -->
+              <li class="drop-down"><a href="#">Products</a>
                 <ul>
-                  <li><a href="#">Deep Drop Down 1</a></li>
-                  <li><a href="#">Deep Drop Down 2</a></li>
-                  <li><a href="#">Deep Drop Down 3</a></li>
-                  <li><a href="#">Deep Drop Down 4</a></li>
-                  <li><a href="#">Deep Drop Down 5</a></li>
+                  <li><a href="./meetings.html">Meetings & Chats</a></li>
+                  <li><a href="./workspace.html">Rooms & Workspaces</a></li>
+                  <li><a href="./phone.html">Phone System</a></li>
+                  <!-- <li><a href="#">Video Webinar</a></li> -->
+                  <!-- <li><a href="#">App Market Place</a></li> -->
                 </ul>
               </li>
-              <li><a href="#">Drop Down 2</a></li>
-              <li><a href="#">Drop Down 3</a></li>
-              <li><a href="#">Drop Down 4</a></li>
+              <li class="drop-down"><a href="#">Industries</a>
+                <ul>
+                  <li><a href="#">Educational</a></li>
+                  <li><a href="#">Financial Service</a></li>
+                  <li><a href="#">Government</a></li>
+                  <li><a href="#">health Care</a></li>
+                </ul>
+              </li>
+              <li class="drop-down"><a href="#">Video Blogs</a>
+                <ul>
+                  <li><a href="#">Blog</a></li>
+                </ul>
+              </li>
             </ul>
           </li>
-          <li><a href="index.html#contact">Contact</a></li>
+          <li><a href="./contact.html">Contact</a></li>
+          <li><a href="/login">Login</a></li>
+          <li class="signup_btn"><a href="/singup">Signup</a></li>
 
         </ul>
       </nav><!-- .nav-menu -->
@@ -341,24 +356,27 @@
           <div class="col-lg-3 col-md-6 footer-links">
             <h4>Useful Links</h4>
             <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">About us</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Services</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Terms of service</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Privacy policy</a></li>
+              
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Customers</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Our Team</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Why Video App</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Features</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Careers</a></li>
+              
             </ul>
           </div>
 
           <div class="col-lg-3 col-md-6 footer-links">
-            <h4>Our Services</h4>
+            
             <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Web Design</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Web Development</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Product Management</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Marketing</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Graphic Design</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Integrations</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Partners</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Investors</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Press</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">How to Videos</a></li>
             </ul>
           </div>
+
 
           <div class="col-lg-3 col-md-6 footer-contact">
             <h4>Contact Us</h4>
@@ -373,7 +391,7 @@
           </div>
 
           <div class="col-lg-3 col-md-6 footer-info">
-            <h3>About Anyar</h3>
+            <h3>About Video App</h3>
             <p>Cras fermentum odio eu feugiat lide par naso tierra. Justo eget nada terra videa magna derita valies darta donna mare fermentum iaculis eu non diam phasellus.</p>
             <div class="social-links mt-3">
               <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
@@ -390,13 +408,13 @@
 
     <div class="container">
       <div class="copyright">
-        &copy; Copyright <strong><span>Anyar</span></strong>. All Rights Reserved
+        &copy; Copyright <strong><span>Video App</span></strong>. All Rights Reserved
       </div>
       <div class="credits">
         <!-- All the links in the footer should remain intact. -->
         <!-- You can delete the links only if you purchased the pro version. -->
         <!-- Licensing information: https://bootstrapmade.com/license/ -->
-        <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/anyar-free-multipurpose-one-page-bootstrap-theme/ -->
+        <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/Video App-free-multipurpose-one-page-bootstrap-theme/ -->
         Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
       </div>
     </div>
