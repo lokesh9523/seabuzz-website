@@ -15,7 +15,7 @@
 
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
-  <link rel="stylesheet" href="assets/fonts/material-icon/css/material-design-iconic-font.min.css">
+
   <!-- Vendor CSS Files -->
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet">
@@ -28,16 +28,12 @@
 
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
-  <link href="assets/css/credentials.css" rel="stylesheet">
 
   <!-- =======================================================
   
   * Author: BootstrapMade.com
   * License: https://bootstrapmade.com/license/
   ======================================================== -->
-  <style>
-
-  </style>
 </head>
 
 <body>
@@ -49,10 +45,10 @@
         <nav class="nav-menu d-none d-lg-block">
         <ul>
           <li>Request a Demo</li>
-          <li><i class="icofont-phone"></i> +1 5589 55488 55</li>
+          <i class="icofont-phone"></i> +1 5589 55488 55</li>
           <li class="drop-down"><a href="#">Resources</a>
             <ul class="text-dark">
-              <li><a href="#">Blog</a></li>
+              <li><a href="./blog.html">Blog</a></li>
             </ul>
           </li>
         </ul>
@@ -66,13 +62,14 @@
     <div class="container d-flex align-items-center">
       <a href="index.html" class="logo mr-auto scrollto"><img src="assets/img/newlogo.jpeg" alt="" class="img-fluid">SeaBuzZ Meeting</a>
      
+
       <!-- <h1 class="logo mr-auto"><a href="index.html" class="scrollto">Video App</a></h1> -->
       <!-- Uncomment below if you prefer to use an image logo -->
       <!-- <a href="#header" class="logo mr-auto scrollto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
 
       <nav class="nav-menu d-none d-lg-block">
         <ul>
-          <li><a href="#header">Home</a></li>
+          <li><a href="./index.html">Home</a></li>
           <li><a href="pricing.html">Pricing</a></li>
           <!-- <li><a href="#services">Services</a></li>
           <li><a href="#portfolio">Portfolio</a></li>
@@ -85,7 +82,7 @@
               <!-- <li><a href="#">Products</a></li> -->
               <li class="drop-down"><a href="#">Products</a>
                 <ul>
-                  <li><a href="./meetings.html">Meetings & Chats</a></li>
+                  <li class="active"><a href="./meetings.html">Meetings & Chats</a></li>
                   <li><a href="./workspace.html">Rooms & Workspaces</a></li>
                   <li><a href="./phone.html">Phone System</a></li>
                   <!-- <li><a href="#">Video Webinar</a></li> -->
@@ -94,10 +91,10 @@
               </li>
               <li class="drop-down"><a href="#">Industries</a>
                 <ul>
-                  <li><a href="education.html">Educational</a></li>
-                  <li><a href="financial.html">Financial Service</a></li>
-                  <li><a href="government.html">Government</a></li>
-                  <li><a href="health.html">health Care</a></li>
+                    <li><a href="education.html">Educational</a></li>
+                    <li><a href="financial.html">Financial Service</a></li>
+                    <li><a href="government.html">Government</a></li>
+                    <li><a href="health.html">health Care</a></li>
                 </ul>
               </li>
               <li class="drop-down"><a href="#">Video Blogs</a>
@@ -109,7 +106,7 @@
           </li>
           <li><a href="./contact.html">Contact</a></li>
           <li><a href="login.html">Login</a></li>
-          <li class="active signup_btn"><a href="./signup.html">Signup</a></li>
+          <li class="signup_btn"><a href="./signup.html">Signup</a></li>
 
         </ul>
       </nav><!-- .nav-menu -->
@@ -117,45 +114,171 @@
     </div>
   </header><!-- End Header -->
 
-    <section class="signup">
-        <div class="containerq">
-            <div class="signup-content">
-                <div class="signup-form">
-                    <h2 class="form-title">Sign up</h2>
-                    <form method="POST" class="register-form" id="register-form">
-                        <div class="form-group">
-                            <label for="name"><i class="zmdi zmdi-account material-icons-name"></i></label>
-                            <input type="text" name="name" id="name" placeholder="Your Name"/>
-                        </div>
-                        <div class="form-group">
-                            <label for="email"><i class="zmdi zmdi-email"></i></label>
-                            <input type="email" name="email" id="email" placeholder="Your Email"/>
-                        </div>
-                        <div class="form-group">
-                            <label for="pass"><i class="zmdi zmdi-lock"></i></label>
-                            <input type="password" name="pass" id="pass" placeholder="Password"/>
-                        </div>
-                        <div class="form-group">
-                            <label for="re-pass"><i class="zmdi zmdi-lock-outline"></i></label>
-                            <input type="password" name="re_pass" id="re_pass" placeholder="Repeat your password"/>
-                        </div>
-                        <div class="form-group">
-                            <input type="checkbox" name="agree-term" id="agree-term" class="agree-term" />
-                            <label for="agree-term" class="label-agree-term"><span><span></span></span>I agree all statements in  <a href="#" class="term-service">Terms of service</a></label>
-                        </div>
-                        <div class="form-group form-button">
-                            <input type="submit" name="signup" id="signup" class="form-submit" value="Register"/>
-                        </div>
-                    </form>
-                </div>
-                <div class="signup-image">
-                    <figure><img src="assets/img/signup-image.jpg" alt="sing up image"></figure>
-                    <a href="./login.html" class="signup-image-link">I am already member</a>
-                </div>
-            </div>
-        </div>
-    </section>
+<!-- <div class="wrapper meeting_wrapper">
+<img src="./assets/img/meetings.jpg" class="w-100" alt="">
+</div>
 
+  <main id="main">
+
+  </main> -->
+
+  <section id="hero1" class="d-flex justify-content-center align-items-center">
+    <div class="container position-relative" data-aos="zoom-in" data-aos-delay="100">
+      <h1>Meetings & Chats</h1>
+      <h2>Enterprise video conferencing with real-time messaging and content sharing</h2>
+      
+      <input type="text"  class=" w-50 p-2" style="border-radius: 10px; border:0;" name="" id="">
+      <a href="courses.html" class="btn-get-started">Get Started</a>
+    </div>
+  </section><!-- End Hero -->
+
+  <main id="main">
+
+    <!-- ======= About Section ======= -->
+    <section class="about">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+
+        </div>
+
+        <div class="row">
+          <div class="col-lg-6 order-1 order-lg-2" data-aos="fade-left" data-aos-delay="100">
+            <img src="assets/img/encyp.svg" style="height: 300px" class="img-fluid" alt="">
+          </div>
+          <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content">
+            <h1>Safety Encryption is here</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem nesciunt enim unde animi, eos omnis saepe quos esse quas non repellendus doloribus nam dignissimos, blanditiis libero. Distinctio atque commodi maiores.</p>
+            <a href="about.html" class="learn-more-btn">Learn More</a>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End About Section -->
+
+
+
+    <!-- ======= Why Us Section ======= -->
+    <section id="why_us" class="why_us">
+      <div class="container" data-aos="fade-up">
+
+        <div class="row">
+          <div class="col-lg-12 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
+            <div class="icon-boxes d-flex flex-column justify-content-center">
+              <div class="row">
+                <div class="col-xl-4 d-flex align-items-stretch">
+                  <div class="icon-box mt-4 mt-xl-0">
+                    <i class="icofont-users-social"></i>
+                    <h4 class="mt-2">Corporis voluptates sit</h4>
+                    <p>Consequuntur sunt aut quasi enim aliquam quae harum pariatur laboris nisi ut aliquip</p>
+                  </div>
+                </div>
+                <div class="col-xl-4 d-flex align-items-stretch">
+                  <div class="icon-box mt-4 mt-xl-0">
+                    <i class="icofont-responsive"></i>
+                    <h4 class="mt-2">Ullamco laboris ladore pan</h4>
+                    <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt</p>
+                  </div>
+                </div>
+                <div class="col-xl-4 d-flex align-items-stretch">
+                  <div class="icon-box mt-4 mt-xl-0">
+                    <i class="icofont-ssl-security"></i>
+                    <h4 class="mt-2">Labore consequatur</h4>
+                    <p>Aut suscipit aut cum nemo deleniti aut omnis. Doloribus ut maiores omnis facere</p>
+                  </div>
+                </div>
+              </div>
+            </div><!-- End .content-->
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End Why Us Section -->
+
+    <!-- ======= Features Section ======= -->
+    <section id="features" class="features">
+      <div class="container" data-aos="fade-up">
+
+        <div class="row" data-aos="zoom-in" data-aos-delay="100">
+          <div class="col-lg-3 col-md-4">
+            <div class="icon-box">
+                <h5><i class="icofont-check-circled"></i>
+              <a href="">Lorem Ipsum</a></h5>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 mt-4 mt-md-0">
+            <div class="icon-box">
+                <h5><i class="icofont-check-circled"></i>
+              <a href="">Dolor Sitema</a></h5>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 mt-4 mt-md-0">
+            <div class="icon-box">
+                <h5><i class="icofont-check-circled"></i>
+             <a href="">Sed perspiciatis</a></h5>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 mt-4 mt-lg-0">
+            <div class="icon-box">
+                <h5><i class="icofont-check-circled"></i>
+              <a href="">Magni Dolores</a></h5>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 mt-4">
+            <div class="icon-box">
+                <h5><i class="icofont-check-circled"></i>
+              <a href="">Nemo Enim</a></h5>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 mt-4">
+            <div class="icon-box">
+                <h5><i class="icofont-check-circled"></i>
+              <a href="">Eiusmod Tempor</a></h5>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 mt-4">
+            <div class="icon-box">
+                <h5><i class="icofont-check-circled"></i>
+              <a href="">Midela Teren</a></h5>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 mt-4">
+            <div class="icon-box">
+                <h5><i class="icofont-check-circled"></i>
+              <a href="">Pira Neve</a></h5>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 mt-4">
+            <div class="icon-box">
+                <h5><i class="icofont-check-circled"></i>
+              <a href="">Dirada Pack</a></h5>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 mt-4">
+            <div class="icon-box">
+                <h5><i class="icofont-check-circled"></i>
+              <a href="">Moton Ideal</a></h5>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 mt-4">
+            <div class="icon-box">
+                <h5><i class="icofont-check-circled"></i>
+             <a href="">Verdo Park</a></h5>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 mt-4">
+            <div class="icon-box">
+                <h5><i class="icofont-check-circled"></i>
+              <a href="">Flavor Nivelanda</a></h5>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End Features Section -->
+
+
+  <!-- End #main -->
 
   <!-- ======= Footer ======= -->
   <footer id="footer">
@@ -169,7 +292,7 @@
           </div>
           <div class="col-lg-6">
             <form action="" method="post">
-              <input type="email" name="email"><input type="submit" value="Subscribe" style="width: auto !important">
+              <input type="email" name="email"><input type="submit" value="Subscribe">
             </form>
           </div>
         </div>
@@ -246,7 +369,7 @@
     </div>
   </footer><!-- End Footer -->
 
-
+  <a href="#" class="back-to-top"><i class="ri-arrow-up-line"></i></a>
   <div id="preloader"></div>
 
   <!-- Vendor JS Files -->
