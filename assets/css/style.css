@@ -184,7 +184,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #header.header-scrolled {
   top: 0;
-  background: rgba(5, 87, 158, 0.9);
+  background: rgba(158, 5, 5, 0.86);
 }
 
 #header .logo {
@@ -561,6 +561,24 @@ h1, h2, h3, h4, h5, h6 {
   border: 2px solid #01228f;
 }
 
+.btn-get-started3 {
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+  font-size: 24px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 12px 32px;
+  border-radius: 50px;
+  transition: 0.5s;
+  line-height: 1;
+  margin: 10px;
+  color: #01228f;
+  background: #fff;
+  -webkit-animation-delay: 0.8s;
+  animation-delay: 0.8s;
+  border: 2px solid #fff;
+}
+
 .btn-get-started:hover {
   background: #061c63;
   color: #fff;
@@ -637,6 +655,41 @@ h1, h2, h3, h4, h5, h6 {
   position: relative;
 }
 
+#hero2 {
+  width: 100%;
+  height: 80vh;
+  background: url("../img/education.jpg") top center;
+  background-size: cover;
+  position: relative;
+}
+
+#hero3 {
+  width: 100%;
+  height: 80vh;
+  background: url("../img/why-us.jpg") top center;
+  background-size: cover;
+  position: relative;
+  color: #011114
+}
+
+#hero4 {
+  width: 100%;
+  height: 80vh;
+  background: url("../img/blog-recent-1.jpg") center center;
+  background-size: cover;
+  position: relative;
+  color: #011114
+}
+
+#hero5 {
+  width: 100%;
+  height: 80vh;
+  background: url("../img/healthcare.jpg") top center;
+  background-size: cover;
+  position: relative;
+  color: #ececec
+}
+
 #workspace {
   width: 100%;
   height: 90vh;
@@ -688,7 +741,8 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 24px;
 }
 
-#hero1 .btn-get-started {
+#hero1 .btn-get-started,
+#hero2 .btn-get-started {
   font-family: "Raleway", sans-serif;
   font-weight: 500;
   font-size: 15px;
@@ -701,6 +755,7 @@ h1, h2, h3, h4, h5, h6 {
   border: 2px solid #fff;
   color: #fff;
 }
+
 
 #hero1 .btn-get-started:hover {
   background: #5fcf80;
@@ -823,7 +878,7 @@ section {
 # About Us
 --------------------------------------------------------------*/
 .about {
-  padding: 140px 0;
+  padding: 80px 0;
   background: url("../img/about-bg.png") top center no-repeat;
   position: relative;
 }
